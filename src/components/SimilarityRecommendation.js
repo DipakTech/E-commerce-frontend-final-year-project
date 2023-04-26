@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { Card, Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { RecommendationContext } from "../App";
