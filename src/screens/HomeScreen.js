@@ -30,7 +30,7 @@ const HomeScreen = ({ match }) => {
 
   const getProductRecommendation = async(name) => {
     const response = await fetch(
-      `http://dipakgiri.pythonanywhere.com/api/get-products?text=${encodeURIComponent(
+      `https://dipakgiri.pythonanywhere.com/api/get-products?text=${encodeURIComponent(
         name
       )}`
     )
