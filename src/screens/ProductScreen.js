@@ -15,7 +15,7 @@ import SimilarityRecommendation from '../components/SimilarityRecommendation'
 import { RecommendationContext } from '../App'
 
 const ProductScreen = ({ history, match }) => {
-  const { recommendation, setRecommendation } = useContext(RecommendationContext);
+  const { recommendation } = useContext(RecommendationContext);
   console.log(recommendation);
 
   const [qty, setQty] = useState(1)

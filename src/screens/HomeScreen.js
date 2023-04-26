@@ -21,7 +21,7 @@ const HomeScreen = ({ match }) => {
   const dispatch = useDispatch()
 
   const productList = useSelector((state) => state.productList)
-  const [similarProducts, setSimilarProducts] = useState([]);
+  const [similarProducts] = useState([]);
   const { loading, error, products, page, pages } = productList
 
   useEffect(() => {
