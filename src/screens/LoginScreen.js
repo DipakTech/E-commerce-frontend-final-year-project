@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { Form, Button, Row, Col } from 'react-bootstrap'
-import { FcGoogle } from 'react-icons/fc'
+// import { FcGoogle } from 'react-icons/fc'
 import { useDispatch, useSelector } from 'react-redux'
 import Message from '../components/Message'
 import Loader from '../components/Loader'
@@ -61,7 +61,7 @@ const LoginScreen = ({ location, history }) => {
         </Button>
       </Form>
       {/* login with google button */}
-      <Row className='py-3'>
+      {/* <Row className='py-3'>
         <Col>
           <a href='/auth/google'>
             <Button variant='light'>
@@ -70,7 +70,7 @@ const LoginScreen = ({ location, history }) => {
             </Button>
           </a>
         </Col>
-      </Row>
+      </Row> */}
 
       <Row className='py-3'>
         <Col>
