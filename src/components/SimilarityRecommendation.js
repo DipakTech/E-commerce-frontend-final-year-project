@@ -50,7 +50,7 @@ const SimilarityRecommendation = ({ recommendation }) => {
                 </Link>
 
                 <Card.Text as='div'>
-                  <Rating value={`${product.rating}`} text='4 reviews' />
+                  <Rating value={`${product.rating}`} text={`${product.rating} reviews`} />
                 </Card.Text>
 
                 <Card.Text as='h3'>{`$${product.price}`}</Card.Text>
